@@ -11,7 +11,7 @@ The application allows users to search for movies, browse results with paginatio
 - 🔎 Search movies using the OMDb API
 - 📄 Paginated search results
 - ↕️ Sort movies by title and year
-- 🎯 Filter search results
+- 🎯 Filter available search results by movie type
 - 🎬 View detailed movie information
 - ❤️ Add and remove movies from a wishlist
 - 💾 Persistent wishlist storage using MongoDB
@@ -20,7 +20,7 @@ The application allows users to search for movies, browse results with paginatio
 - ⚠️ Error handling
 - 📭 Empty states
 - 🖼️ Fallback handling for unavailable movie posters
-- 📱 Responsive user interface
+- 📱 Responsive layout for different screen sizes
 - 🔐 OMDb API key kept on the backend
 
 ---
@@ -373,6 +373,16 @@ The application handles:
 
 ---
 
+## 📝 Assumptions
+
+- OMDb is used as the external movie data provider.
+- Movie information is retrieved from OMDb, while wishlist data is owned and stored by the application.
+- A wishlist is currently shared at the application level because user authentication was outside the implemented scope.
+- OMDb search results are paginated using the API's page-based results.
+- The application focuses on movie titles rather than TV series.
+
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -424,35 +434,16 @@ Build the frontend with:
 ```bash
 npm run build
 ```
-
----
-
-## 🤖 AI Usage
-
-AI tools were used during development as a development assistant for:
-
-- Understanding technical concepts
-- Debugging errors
-- Structuring the project
-- Reviewing implementation approaches
-- Improving error handling and UI states
-- Generating and refining documentation
-
-All implemented functionality was tested and reviewed during development.
-
 ---
 
 ## 🔮 Future Improvements
 
 - User authentication and individual wishlists
-- More advanced movie categories
 - Genre-based discovery
 - Improved recommendation features
 - Backend caching for frequently requested movies
 - Request rate limiting
 - Better API retry/fallback handling
-- Automated frontend and backend tests
-- Production deployment
 
 ---
 
