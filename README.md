@@ -436,6 +436,30 @@ npm run build
 ```
 ---
 
+## 🤖 AI Contribution
+
+AI tools, primarily **ChatGPT**, were used as a development assistant throughout the project.
+
+### Areas where AI assisted
+
+- Understanding third-party API documentation and request/response formats
+- Generating initial boilerplate and project structure ideas
+- Troubleshooting frontend and backend errors
+- Reviewing API routes, controllers, services, and data flow
+- Improving error handling and loading/empty states
+- Reviewing UI and component structure
+- Helping with debugging and implementation decisions
+
+### Developer Contribution
+
+The application architecture, technology choices, database structure, API flow, feature requirements, and final implementation were reviewed and tested during development.
+
+AI-generated suggestions were adapted to the requirements of the assignment rather than being submitted without review. The final code was manually integrated, tested, debugged, and modified as needed.
+
+I am able to explain the implementation, including the frontend-to-backend data flow, OMDb integration, MongoDB wishlist persistence, API design, and key technical decisions.
+
+---
+
 ## 🔮 Future Improvements
 
 - User authentication and individual wishlists
